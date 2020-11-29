@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeri</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Galeri</title>   
+<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </head>
 <body>
     <div id="container">
@@ -27,26 +30,36 @@
               </ul>
           </nav>
          <!--Menu bitis-->
-       
+  
+
+    <div class="slider">
+        <div><img src="images/kucukluk-2.jpg" title="3 Yaşındayken"></div>
+        <div><img src="images/kucukluk-1.jpg" title="6 Yaşındayken"></div>
+        <div><img src="images/spor-salonu.jpg" title="16 Yaşıdayken"></div>
+        <div><img src="images/anıtkabir-jpg.jpeg" title="Anıtkabir"></div>
+        <div><img src="images/mezuniyet-lise.jpg" title="17 Yaşındayken"></div>
+        <div><img src="images/masa-bası.jpg" title="19 Yaşındayken"></div>
+    </div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-         
-         
+ 
   <!-- Footer Alanı baslangıc-->
    <footer><b>Mustafa Özkar 2020 Tüm Hakları Saklıdır   &copy; </b></footer>
   <!--Footer Alanı bitis-->
-  
-  </div>
+ </div>
+ 
+ <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+    adaptiveHeight: true,
+    mode: 'fade',
+    captions: true,
+    slideWidth: 800
+    
+  });
+    });
+  </script>
 </body>
 </html>
