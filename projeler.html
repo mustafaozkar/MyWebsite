@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </head>
 <body>
     <div id="container">
@@ -28,9 +31,41 @@
           </nav>
     <!--Menu bitis-->
         
+<h1>Projelerim</h1>
+<h2>Grafik Animasyon Dersinde Hazırlamış Olduğum Projeler</h2>
+
+<div class="slider">
+    <div><img src="images/brushtool-final.jpg" title="Yapmış olduğum 'Brush Tool'çalışması"></div>
+    <div><img src="images/karakalem-final.jpg" title="Yapmış olduğum 'Karakalem' .alışması"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- Footer Alanı baslangıc-->
    <footer><b>Mustafa Özkar 2020 Tüm Hakları Saklıdır   &copy; </b></footer>
   <!--Footer Alanı bitis-->
     </div>
+
+
+
+
+    <script>
+        $(document).ready(function(){
+          $('.slider').bxSlider({
+        adaptiveHeight: true,
+        mode: 'fade',
+        captions: true,  
+      });
+        });
+      </script>
 </body>
 </html>
