@@ -463,9 +463,139 @@
   
    /* normalize css bitis */
     
+   
+body{
+  background-color: slategrey;
+  
+}
 
-     
+#container{
+  width: 90%;
+  margin: auto;
+}
+
+header{
+  height: 75px;
+  background-color: rgb(241, 143, 143);
+}
+
+nav{
+  
+  background-color: rgb(255, 255, 255);
+}
+
+nav ul{
+  list-style: none;
+  background-color: rgb(121, 65, 93);
+  text-align: center;
+  line-height: 70px;
+}
+
+
+nav ul li {
+  width: 142px;
+  display: inline-block;
+}
+ 
+nav ul li a {
+ color: rgb(128, 255, 0);
+}
+
+nav ul li a:hover{
+  color: rgb(0, 0, 0);
+}
+
+
+#hakkimdayazısı{
+  font-family: serif  ;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(211, 186, 45);
+}
+
+
+
+#aboutme{
+  background-color: lightcoral;
+  width: 90%;
+  text-align: center;
+  margin: 0 1% 4% 5% ;
+  border: 1px solid black;
+  font-size: 28px;
+  
+}
+
+
+#tablo{
+  background-color: rgb(74, 214, 184);
+  width: 33%;
+  text-align: center;
+  margin: 0 0 5% 31% ;
+  font-size: 25px;
+  
+}
+
+
+h2{
+  background-color: rgb(163, 20, 20);
+  width: 15%;
+  text-align: center;
+  margin: 0 0 5% 41%;
+  font-size: 30px;
+  font-family: serif;
+}
+
+.ilgialanlarim{
+  width: 100%;
+
+
+}
+
+.webtasarimi{
+ width: 20%;
+ float: left;
+ background-color: honeydew;
+ border:1px solid black;
+}
+
+.grafikanimasyon{
+  width: 20%;
+  float: left;
+  background-color: blueviolet;
+  border: 1px solid black;
+}
+
+.programlama{
+  width: 20%;
+  float: left;
+  background-color: chartreuse;
+
+}
+
+
+.spor{
+  width: 20%;
+  float: left;
+  background-color: brown;
+  
+}
 
 
 
 
+
+
+
+
+
+
+
+
+footer{
+  background-color: black;
+  color: white;
+  clear: both;
+  height: 70px;
+  line-height: 70px;
+  text-align: center
+    }
