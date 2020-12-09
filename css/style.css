@@ -461,7 +461,7 @@
     display: none;
   }
   
-   /* normalize css bitis */
+   /*=============== normalize css bitis ===============*/
     
    
 body{
@@ -558,8 +558,8 @@ h2{
 
 .webtasarimi{
   list-style: none;
- width: 23%;
- margin: 0% 1% 1% 0%;
+ width: 22%;
+ margin: 0% 1% 2% 0%;
  float: left;
  background-color: honeydew;
  border:1px solid black;
@@ -569,8 +569,8 @@ font-size: larger;
 
 .grafikanimasyon{
   list-style: none;
-  width: 23%;
-  margin: 0% 1% 1% 0%;
+  width: 22%;
+  margin: 0% 1% 2% 0%;
   float: left;
   background-color: blueviolet;
   border: 1px solid black;
@@ -580,8 +580,8 @@ font-size: larger;
 
 .programlama{
   list-style-type: none;
-  width: 23%;
-  margin: 0% 1% 1% 0%;
+  width: 22%;
+  margin: 0% 1% 2% 0%;
   float: left;
   background-color: chartreuse;
   border: 1px solid black;
@@ -592,22 +592,14 @@ font-size: larger;
 
 .spor{
   list-style: none;
-  width: 23%;
-  margin: 0% 1% 1% 0%;
+  width: 22%;
+  margin: 0% 1% 2% 0%;
   float: left;
   border: 1px solid black;
   background-color: brown;
   text-align: center;
   font-size: larger;
 }
-
-
-
-
-
-
-
-
 
 
 
