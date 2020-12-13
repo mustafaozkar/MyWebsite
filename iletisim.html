@@ -6,8 +6,42 @@
     <title>İletişim</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid rgb(148, 146, 146);
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: none;
+        }
+        
+        input[type=submit] {
+          background-color: #2b4b2d;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+         
+        }
+        
+        input[type=submit]:hover {
+          background-color: #298d29;
+        }
+        
+        .container1 {
+          border-radius: 5px;
+          background-color: #918e8e;
+          padding: 20px;
+        }
+        </style>
 </head>
-<body>
+<body background="images/background.jpg">
     <div id="container">
         <header> <a href="index.html">
             <img src="images/M-png.png"  width="40px" height="40px"  alt="kendi tasarladığım M harfi"></a> </header>
@@ -29,18 +63,25 @@
           </nav>
      <!--Menu bitis--> 
 
-<h1>İletişim İçin;</h1>
- 
-     <ul>
-         <li><a href="https://www.facebook.com/mustafa.ozkar07">
-        <img src="images/facebook.png" alt="facebook png" width="45px" height="45px"></a></li>
-         <li><a href="https://www.instagram.com/mustafaozkar_">
-        <img src="images/instagram-png.png" alt="instagram png" width="45px" height="45px"></a></li>
-         <li><a href="https://twitter.com/mustafaozkar_">
-        <img src="images/twitter-logo-png-twitter-logo.png" alt="twitter png" width="45px" height="45px"></a></li>
-         <li><img src="images/gmail-png.png" width="45px" height="45px" alt=""> &#8680; mustafaozkar07@gmail.com</li>
-         <li><img src="images/wp-png.png" width="45px" height="45px" alt=""> &#8680;+90 (536)   996 9261</li>
-     </ul>
+
+     <h3 class="giris">İletişim Formu</h3>
+
+     <div class="container1">
+       <form action="/action_page.php">
+         <label for="fname">Adınız</label>
+         <input type="text" id="fname" name="firstname" placeholder="Adınız..">
+     
+         <label for="lname">Soyadınız</label>
+         <input type="text" id="lname" name="lastname" placeholder="Soyadınız..">
+     
+        
+     
+         <label for="subject">E-Posta</label>
+         <textarea id="subject" name="subject" placeholder="e-posta adresiniz.." style="height:50px"></textarea>
+     
+         <input type="submit" value="Gönder">
+       </form>
+     </div>
 
 
 
