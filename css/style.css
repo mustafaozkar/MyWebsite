@@ -27,8 +27,8 @@ nav ul{
   background-color: rgb(121, 65, 93);
   text-align: center;
   line-height: 70px;
+  
 }
-
 
 nav ul li {
   width: 142px;
@@ -37,11 +37,59 @@ nav ul li {
  
 nav ul li a {
  color: rgb(128, 255, 0);
+ text-decoration: none;
 }
 
 nav ul li a:hover{
   color: rgb(0, 0, 0);
 }
+
+
+#hakkimdaozet{
+  width: 30%;
+  height: 465px ;
+  margin:  0 2% 5% 3% ;
+  float: left;
+  border: 1px solid black;
+  border-radius: 30px;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: coral;
+}
+#ozetparagraf{
+  background-color: rgb(233, 94, 43);
+}
+
+#projelerozet{
+  width: 30% ;
+  height: 465px ;
+  margin: 0 2% 5% 0 ;
+  float: left;
+  border: 1px solid black;
+  border-radius: 30px;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: darkturquoise;
+}
+
+#galeriozet{
+  width: 30% ;
+  height: 465px ;
+  margin: 0 2% 5% 0 ;
+  float: left;
+  border: 1px solid black;
+  border-radius: 30px;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background: rgb(172, 164, 51);
+}
+
+
+
+
 
 
 #hakkimdayazisi{
@@ -101,7 +149,7 @@ h2{
  background-color: honeydew;
  border:1px solid black;
  text-align: center;
-font-size: larger;
+ font-size: larger;
 }
 
 
@@ -147,11 +195,14 @@ footer{
   color: white;
   clear: both;
   height: 30px;
+ margin: 5% 0 0 0;
   line-height: 30px;
   text-align: center
     }
 
-                  /*RWD*/   
+
+
+                  /*--------------RWD---------------*/   
 
 @media print {
     header, nav ul li a, footer, #hakkimdayazisi, h1{
